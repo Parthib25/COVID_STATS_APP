@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Orelega+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap");
+* {
+  margin: 0% 0% 0% 0%;
+  padding: 0% 0% 0% 0%;
+}
+.bod {
+  width: 40rem;
+  height: 50rem;
+  margin-left: auto;
+  margin-right: auto;
+
+  border: 5px solid #041c32;
+  margin-top: 3rem;
+}
+.covid-img {
+  width: 10rem;
+  height: 10rem;
+  text-align: center;
+  border-radius: 0.8rem;
+  border: 2px solid #041c32;
+  margin-top: 2rem;
+}
+.Heading {
+  text-align: center;
+  font-family: "Orelega One", cursive;
+  font-weight: bolder;
+  color: #041c32;
+}
+.inp {
+  margin-top: 2rem;
+}
+.country-code {
+  border-radius: 0.8rem;
+  text-align: center;
+}
+.sub {
+  border-radius: 0.5rem;
+  border-color: #041c32;
+  font-family: "Orelega One", cursive;
+  font-weight: 200;
+}
+.sub:hover {
+  border-radius: 0.5rem;
+  border-color: #041c32;
+  font-family: "Orelega One", cursive;
+  font-weight: 200;
+  background-color: #041c32;
+  color: #ecb365;
+  cursor: grabbing;
+}
+.result {
+  border: 2px dotted #041c32;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 25rem;
+  margin-left: 7.3rem;
+  margin-top: 1.5rem;
+}
+.code,
+.country,
+.confirmed,
+.deaths,
+.recovered,
+.critical,
+.lastchanged,
+.lastupdate {
+  background-color: #c2fff9;
+  margin-top: 0.8rem;
+}
+.finder {
+  margin-top: 1rem;
+}
+.git {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 60rem;
+  border: 2px solid red;
+}
+.footer {
+  margin-top: 2.4rem;
+  background-color: #eeeeee;
+  display: flex;
+  flex-direction: row;
+}
+.copyright {
+  font-family: "Mochiy Pop P One", sans-serif;
+  margin-top: 1.5rem;
+  margin-left: 15rem;
+}
+.maskup {
+  height: 6rem;
+  width: 6rem;
+}
+.git-div {
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+}
+
+a:hover {
+  color: red;
+  cursor: grab;
+}
+a {
+  color: #041c32;
+}
+body {
+  transition: 200ms ease;
+}
